@@ -9,6 +9,8 @@ def main(tables=None):
         tables = [
             'contacts',
             'flows',
+            'contact_tags',
+            'users'
         ]
 
     reev = Reev()

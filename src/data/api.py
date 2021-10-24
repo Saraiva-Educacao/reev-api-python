@@ -160,3 +160,56 @@ class ReevAPI:
                     flow['status_blocklisted'] = flow.pop('status_blacklisted')
 
         return all_flows
+
+    def get_custom_fields(self):
+        """Get all custom fields names.
+
+        This method is used to create the contacts table schema.
+
+        Returns:
+             list: Name of the custom fields used in contacts
+        """
+
+        custom_fields_url = 'http://api.reev.co/v1/custom_fields'
+        response = requests.get(custom_fields_url, params={'api_token': self.token})
+        if response.status_code == 200:
+            custom_fields = response.json()['custom_fields']
+        else:
+            raise HTTPError(f"The request returned the {response.status_code} error code")
+
+        # Cleaning key names
+        custom_fields_name = []
+        for field in custom_fields:
+            field_name = format_string(field['field'])
+            custom_fields_name.append(field_name)
+
+        return custom_fields_name
+
+    def get_users(self):
+        """Get id, name and role for every user in Reev."""
+
+        users_url = 'http://api.reev.co/v1/users?page=1'
+        response = requests.get(users_url, params={'api_token': self.token})
+
+        if response.status_code == 200:
+            response = response.json()['users']
+        else:
+            raise HTTPError(f"The request returned the {response.status_code} error code")
+
+        return response
+
+    def get_contact_tags(self):
+        all_contacts = self._get_raw_contacts()
+
+        all_contact_tags = []
+
+        for contact in all_contacts:
+            contact_id = contact['id']
+
+            for tag in contact['tags']:
+                tag_name = format_string(tag['name'])
+
+                contact_tag = {'contact_id': contact_id, 'tag_name': tag_name}
+                all_contact_tags.append(contact_tag)
+
+        return all_contact_tags
