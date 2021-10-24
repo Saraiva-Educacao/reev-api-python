@@ -1,0 +1,2004 @@
+{
+  "flows": [
+    {
+      "id": 52857,
+      "name": "[Outbound] Teste ",
+      "email_statistic": {
+        "sent": 2,
+        "accepted": 2,
+        "rejected": 0,
+        "delivery": 2,
+        "bounce": 0,
+        "open": 1,
+        "reply": 0,
+        "soft_bounce": 0
+      },
+      "duration_in_days": 20,
+      "actions_count": 13,
+      "status": "published",
+      "user": {
+        "id": 6830,
+        "name": "User Two",
+        "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/006/830/thumb/Foto_de_perfil.jpeg?1603138363",
+        "role": "manager"
+      },
+      "recipients_statistics": {
+        "total": {
+          "count": 2,
+          "label": "total",
+          "human_label": "Total"
+        },
+        "by_stage": {
+          "mql": {
+            "count": 0,
+            "label": "mql",
+            "human_label": "MQL"
+          },
+          "sql": {
+            "count": 0,
+            "label": "sql",
+            "human_label": "SQL"
+          },
+          "lead": {
+            "count": 0,
+            "label": "lead",
+            "human_label": "Lead"
+          },
+          "lost": {
+            "count": 0,
+            "label": "lost",
+            "human_label": "Perdido"
+          },
+          "client": {
+            "count": 0,
+            "label": "client",
+            "human_label": "Cliente"
+          },
+          "prospect": {
+            "count": 0,
+            "label": "prospect",
+            "human_label": "Prospect"
+          },
+          "conversion": {
+            "value": 0.0
+          },
+          "smart_lead": {
+            "count": 0,
+            "label": "smart_lead",
+            "human_label": "Smart Lead"
+          },
+          "opportunity": {
+            "count": 0,
+            "label": "opportunity",
+            "human_label": "Oportunidade"
+          }
+        },
+        "by_status": {
+          "active": {
+            "count": 2,
+            "label": "active",
+            "human_label": "Ativos"
+          },
+          "paused": {
+            "count": 0,
+            "label": "paused",
+            "human_label": "Pausados"
+          },
+          "bounced": {
+            "count": 0,
+            "label": "bounced",
+            "human_label": "Bounces"
+          },
+          "finished": {
+            "count": 0,
+            "label": "finished",
+            "human_label": "Finalizados"
+          },
+          "connected": {
+            "count": 0,
+            "label": "connected",
+            "human_label": "Conectados"
+          },
+          "converting": {
+            "count": 0,
+            "label": "converting",
+            "human_label": "Pendentes"
+          },
+          "blocklisted": {
+            "count": 0,
+            "label": "blocklisted",
+            "human_label": "Blocklist"
+          },
+          "interrupted": {
+            "count": 0,
+            "label": "interrupted",
+            "human_label": "Interrompidos"
+          },
+          "disqualified": {
+            "count": 0,
+            "label": "disqualified",
+            "human_label": "Desqualificados"
+          },
+          "not_connected": {
+            "count": 0,
+            "label": "not_connected",
+            "human_label": "Sem Conex\u00e3o"
+          },
+          "uninitialized": {
+            "count": 0,
+            "label": "uninitialized",
+            "human_label": "N\u00e3o iniciados"
+          }
+        }
+      },
+      "semi_automatic": true
+    },
+    {
+      "id": 51643,
+      "name": "[Inbound] [TESTE] Qualifica\u00e7\u00e3o de levantadas",
+      "email_statistic": {
+        "sent": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "delivery": 0,
+        "bounce": 0,
+        "open": 0,
+        "reply": 0,
+        "soft_bounce": 0
+      },
+      "duration_in_days": 4,
+      "actions_count": 6,
+      "status": "published",
+      "user": {
+        "id": 1641,
+        "name": "Larissa Sales",
+        "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/001/641/thumb/WhatsApp_Image_2020-10-19_at_16.54.07.jpeg?1603137418",
+        "role": "manager"
+      },
+      "recipients_statistics": {
+        "total": {
+          "count": 0,
+          "label": "total",
+          "human_label": "Total"
+        },
+        "by_stage": {
+          "mql": {
+            "count": 0,
+            "label": "mql",
+            "human_label": "MQL"
+          },
+          "sql": {
+            "count": 0,
+            "label": "sql",
+            "human_label": "SQL"
+          },
+          "lead": {
+            "count": 0,
+            "label": "lead",
+            "human_label": "Lead"
+          },
+          "lost": {
+            "count": 0,
+            "label": "lost",
+            "human_label": "Perdido"
+          },
+          "client": {
+            "count": 0,
+            "label": "client",
+            "human_label": "Cliente"
+          },
+          "prospect": {
+            "count": 0,
+            "label": "prospect",
+            "human_label": "Prospect"
+          },
+          "conversion": {
+            "value": 0.0
+          },
+          "smart_lead": {
+            "count": 0,
+            "label": "smart_lead",
+            "human_label": "Smart Lead"
+          },
+          "opportunity": {
+            "count": 0,
+            "label": "opportunity",
+            "human_label": "Oportunidade"
+          }
+        },
+        "by_status": {
+          "active": {
+            "count": 0,
+            "label": "active",
+            "human_label": "Ativos"
+          },
+          "paused": {
+            "count": 0,
+            "label": "paused",
+            "human_label": "Pausados"
+          },
+          "bounced": {
+            "count": 0,
+            "label": "bounced",
+            "human_label": "Bounces"
+          },
+          "finished": {
+            "count": 0,
+            "label": "finished",
+            "human_label": "Finalizados"
+          },
+          "connected": {
+            "count": 0,
+            "label": "connected",
+            "human_label": "Conectados"
+          },
+          "converting": {
+            "count": 0,
+            "label": "converting",
+            "human_label": "Pendentes"
+          },
+          "blocklisted": {
+            "count": 0,
+            "label": "blocklisted",
+            "human_label": "Blocklist"
+          },
+          "interrupted": {
+            "count": 0,
+            "label": "interrupted",
+            "human_label": "Interrompidos"
+          },
+          "disqualified": {
+            "count": 0,
+            "label": "disqualified",
+            "human_label": "Desqualificados"
+          },
+          "not_connected": {
+            "count": 0,
+            "label": "not_connected",
+            "human_label": "Sem Conex\u00e3o"
+          },
+          "uninitialized": {
+            "count": 0,
+            "label": "uninitialized",
+            "human_label": "N\u00e3o iniciados"
+          }
+        }
+      },
+      "semi_automatic": true
+    },
+    {
+      "id": 51635,
+      "name": "[Inbound] [TESTE] Qualifica\u00e7\u00e3o de levantadas",
+      "email_statistic": {
+        "sent": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "delivery": 0,
+        "bounce": 0,
+        "open": 0,
+        "reply": 0,
+        "soft_bounce": 0
+      },
+      "duration_in_days": 4,
+      "actions_count": 6,
+      "status": "published",
+      "user": {
+        "id": 1641,
+        "name": "User One",
+        "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/001/641/thumb/WhatsApp_Image_2020-10-19_at_16.54.07.jpeg?1603137418",
+        "role": "manager"
+      },
+      "recipients_statistics": {
+        "total": {
+          "count": 0,
+          "label": "total",
+          "human_label": "Total"
+        },
+        "by_stage": {
+          "mql": {
+            "count": 0,
+            "label": "mql",
+            "human_label": "MQL"
+          },
+          "sql": {
+            "count": 0,
+            "label": "sql",
+            "human_label": "SQL"
+          },
+          "lead": {
+            "count": 0,
+            "label": "lead",
+            "human_label": "Lead"
+          },
+          "lost": {
+            "count": 0,
+            "label": "lost",
+            "human_label": "Perdido"
+          },
+          "client": {
+            "count": 0,
+            "label": "client",
+            "human_label": "Cliente"
+          },
+          "prospect": {
+            "count": 0,
+            "label": "prospect",
+            "human_label": "Prospect"
+          },
+          "conversion": {
+            "value": 0.0
+          },
+          "smart_lead": {
+            "count": 0,
+            "label": "smart_lead",
+            "human_label": "Smart Lead"
+          },
+          "opportunity": {
+            "count": 0,
+            "label": "opportunity",
+            "human_label": "Oportunidade"
+          }
+        },
+        "by_status": {
+          "active": {
+            "count": 0,
+            "label": "active",
+            "human_label": "Ativos"
+          },
+          "paused": {
+            "count": 0,
+            "label": "paused",
+            "human_label": "Pausados"
+          },
+          "bounced": {
+            "count": 0,
+            "label": "bounced",
+            "human_label": "Bounces"
+          },
+          "finished": {
+            "count": 0,
+            "label": "finished",
+            "human_label": "Finalizados"
+          },
+          "connected": {
+            "count": 0,
+            "label": "connected",
+            "human_label": "Conectados"
+          },
+          "converting": {
+            "count": 0,
+            "label": "converting",
+            "human_label": "Pendentes"
+          },
+          "blocklisted": {
+            "count": 0,
+            "label": "blocklisted",
+            "human_label": "Blocklist"
+          },
+          "interrupted": {
+            "count": 0,
+            "label": "interrupted",
+            "human_label": "Interrompidos"
+          },
+          "disqualified": {
+            "count": 0,
+            "label": "disqualified",
+            "human_label": "Desqualificados"
+          },
+          "not_connected": {
+            "count": 0,
+            "label": "not_connected",
+            "human_label": "Sem Conex\u00e3o"
+          },
+          "uninitialized": {
+            "count": 0,
+            "label": "uninitialized",
+            "human_label": "N\u00e3o iniciados"
+          }
+        }
+      },
+      "semi_automatic": true
+    },
+    {
+      "id": 51634,
+      "name": "[Inbound] [TESTE] Qualifica\u00e7\u00e3o de levantadas",
+      "email_statistic": {
+        "sent": 2,
+        "accepted": 2,
+        "rejected": 0,
+        "delivery": 2,
+        "bounce": 0,
+        "open": 2,
+        "reply": 0,
+        "soft_bounce": 0
+      },
+      "duration_in_days": 4,
+      "actions_count": 6,
+      "status": "published",
+      "user": {
+        "id": 1641,
+        "name": "User One",
+        "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/001/641/thumb/WhatsApp_Image_2020-10-19_at_16.54.07.jpeg?1603137418",
+        "role": "manager"
+      },
+      "recipients_statistics": {
+        "total": {
+          "count": 4,
+          "label": "total",
+          "human_label": "Total"
+        },
+        "by_stage": {
+          "mql": {
+            "count": 0,
+            "label": "mql",
+            "human_label": "MQL"
+          },
+          "sql": {
+            "count": 0,
+            "label": "sql",
+            "human_label": "SQL"
+          },
+          "lead": {
+            "count": 0,
+            "label": "lead",
+            "human_label": "Lead"
+          },
+          "lost": {
+            "count": 0,
+            "label": "lost",
+            "human_label": "Perdido"
+          },
+          "client": {
+            "count": 0,
+            "label": "client",
+            "human_label": "Cliente"
+          },
+          "prospect": {
+            "count": 3,
+            "label": "prospect",
+            "human_label": "Prospect"
+          },
+          "conversion": {
+            "value": 1.0
+          },
+          "smart_lead": {
+            "count": 0,
+            "label": "smart_lead",
+            "human_label": "Smart Lead"
+          },
+          "opportunity": {
+            "count": 0,
+            "label": "opportunity",
+            "human_label": "Oportunidade"
+          }
+        },
+        "by_status": {
+          "active": {
+            "count": 1,
+            "label": "active",
+            "human_label": "Ativos"
+          },
+          "paused": {
+            "count": 0,
+            "label": "paused",
+            "human_label": "Pausados"
+          },
+          "bounced": {
+            "count": 0,
+            "label": "bounced",
+            "human_label": "Bounces"
+          },
+          "finished": {
+            "count": 0,
+            "label": "finished",
+            "human_label": "Finalizados"
+          },
+          "connected": {
+            "count": 3,
+            "label": "connected",
+            "human_label": "Conectados"
+          },
+          "converting": {
+            "count": 0,
+            "label": "converting",
+            "human_label": "Pendentes"
+          },
+          "blocklisted": {
+            "count": 0,
+            "label": "blocklisted",
+            "human_label": "Blocklist"
+          },
+          "interrupted": {
+            "count": 0,
+            "label": "interrupted",
+            "human_label": "Interrompidos"
+          },
+          "disqualified": {
+            "count": 0,
+            "label": "disqualified",
+            "human_label": "Desqualificados"
+          },
+          "not_connected": {
+            "count": 0,
+            "label": "not_connected",
+            "human_label": "Sem Conex\u00e3o"
+          },
+          "uninitialized": {
+            "count": 0,
+            "label": "uninitialized",
+            "human_label": "N\u00e3o iniciados"
+          }
+        }
+      },
+      "semi_automatic": true
+    },
+    {
+      "id": 49776,
+      "name": "[OUTBOUND] TESTE",
+      "email_statistic": {
+        "sent": 29,
+        "accepted": 29,
+        "rejected": 0,
+        "delivery": 29,
+        "bounce": 0,
+        "open": 5,
+        "reply": 0,
+        "soft_bounce": 1
+      },
+      "duration_in_days": 11,
+      "actions_count": 8,
+      "status": "published",
+      "user": {
+        "id": 6830,
+        "name": "User Two",
+        "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/006/830/thumb/Foto_de_perfil.jpeg?1603138363",
+        "role": "manager"
+      },
+      "recipients_statistics": {
+        "total": {
+          "count": 8,
+          "label": "total",
+          "human_label": "Total"
+        },
+        "by_stage": {
+          "mql": {
+            "count": 0,
+            "label": "mql",
+            "human_label": "MQL"
+          },
+          "sql": {
+            "count": 0,
+            "label": "sql",
+            "human_label": "SQL"
+          },
+          "lead": {
+            "count": 0,
+            "label": "lead",
+            "human_label": "Lead"
+          },
+          "lost": {
+            "count": 0,
+            "label": "lost",
+            "human_label": "Perdido"
+          },
+          "client": {
+            "count": 0,
+            "label": "client",
+            "human_label": "Cliente"
+          },
+          "prospect": {
+            "count": 6,
+            "label": "prospect",
+            "human_label": "Prospect"
+          },
+          "conversion": {
+            "value": 0.0
+          },
+          "smart_lead": {
+            "count": 0,
+            "label": "smart_lead",
+            "human_label": "Smart Lead"
+          },
+          "opportunity": {
+            "count": 0,
+            "label": "opportunity",
+            "human_label": "Oportunidade"
+          }
+        },
+        "by_status": {
+          "active": {
+            "count": 0,
+            "label": "active",
+            "human_label": "Ativos"
+          },
+          "paused": {
+            "count": 2,
+            "label": "paused",
+            "human_label": "Pausados"
+          },
+          "bounced": {
+            "count": 0,
+            "label": "bounced",
+            "human_label": "Bounces"
+          },
+          "finished": {
+            "count": 0,
+            "label": "finished",
+            "human_label": "Finalizados"
+          },
+          "connected": {
+            "count": 0,
+            "label": "connected",
+            "human_label": "Conectados"
+          },
+          "converting": {
+            "count": 0,
+            "label": "converting",
+            "human_label": "Pendentes"
+          },
+          "blocklisted": {
+            "count": 0,
+            "label": "blocklisted",
+            "human_label": "Blocklist"
+          },
+          "interrupted": {
+            "count": 0,
+            "label": "interrupted",
+            "human_label": "Interrompidos"
+          },
+          "disqualified": {
+            "count": 0,
+            "label": "disqualified",
+            "human_label": "Desqualificados"
+          },
+          "not_connected": {
+            "count": 6,
+            "label": "not_connected",
+            "human_label": "Sem Conex\u00e3o"
+          },
+          "uninitialized": {
+            "count": 0,
+            "label": "uninitialized",
+            "human_label": "N\u00e3o iniciados"
+          }
+        }
+      },
+      "semi_automatic": true
+    },
+    {
+      "id": 49774,
+      "name": "[Outbound] TESTE",
+      "email_statistic": {
+        "sent": 18,
+        "accepted": 18,
+        "rejected": 0,
+        "delivery": 18,
+        "bounce": 0,
+        "open": 9,
+        "reply": 0,
+        "soft_bounce": 0
+      },
+      "duration_in_days": 11,
+      "actions_count": 8,
+      "status": "published",
+      "user": {
+        "id": 1641,
+        "name": "User One",
+        "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/001/641/thumb/WhatsApp_Image_2020-10-19_at_16.54.07.jpeg?1603137418",
+        "role": "manager"
+      },
+      "recipients_statistics": {
+        "total": {
+          "count": 8,
+          "label": "total",
+          "human_label": "Total"
+        },
+        "by_stage": {
+          "mql": {
+            "count": 0,
+            "label": "mql",
+            "human_label": "MQL"
+          },
+          "sql": {
+            "count": 0,
+            "label": "sql",
+            "human_label": "SQL"
+          },
+          "lead": {
+            "count": 0,
+            "label": "lead",
+            "human_label": "Lead"
+          },
+          "lost": {
+            "count": 4,
+            "label": "lost",
+            "human_label": "Perdido"
+          },
+          "client": {
+            "count": 0,
+            "label": "client",
+            "human_label": "Cliente"
+          },
+          "prospect": {
+            "count": 4,
+            "label": "prospect",
+            "human_label": "Prospect"
+          },
+          "conversion": {
+            "value": 0.12
+          },
+          "smart_lead": {
+            "count": 0,
+            "label": "smart_lead",
+            "human_label": "Smart Lead"
+          },
+          "opportunity": {
+            "count": 0,
+            "label": "opportunity",
+            "human_label": "Oportunidade"
+          }
+        },
+        "by_status": {
+          "active": {
+            "count": 0,
+            "label": "active",
+            "human_label": "Ativos"
+          },
+          "paused": {
+            "count": 0,
+            "label": "paused",
+            "human_label": "Pausados"
+          },
+          "bounced": {
+            "count": 0,
+            "label": "bounced",
+            "human_label": "Bounces"
+          },
+          "finished": {
+            "count": 0,
+            "label": "finished",
+            "human_label": "Finalizados"
+          },
+          "connected": {
+            "count": 1,
+            "label": "connected",
+            "human_label": "Conectados"
+          },
+          "converting": {
+            "count": 0,
+            "label": "converting",
+            "human_label": "Pendentes"
+          },
+          "blocklisted": {
+            "count": 0,
+            "label": "blocklisted",
+            "human_label": "Blocklist"
+          },
+          "interrupted": {
+            "count": 0,
+            "label": "interrupted",
+            "human_label": "Interrompidos"
+          },
+          "disqualified": {
+            "count": 4,
+            "label": "disqualified",
+            "human_label": "Desqualificados"
+          },
+          "not_connected": {
+            "count": 3,
+            "label": "not_connected",
+            "human_label": "Sem Conex\u00e3o"
+          },
+          "uninitialized": {
+            "count": 0,
+            "label": "uninitialized",
+            "human_label": "N\u00e3o iniciados"
+          }
+        }
+      },
+      "semi_automatic": true
+    },
+    {
+      "id": 49320,
+      "name": "[Outbound] TESTE",
+      "email_statistic": {
+        "sent": 82,
+        "accepted": 76,
+        "rejected": 6,
+        "delivery": 76,
+        "bounce": 6,
+        "open": 27,
+        "reply": 1,
+        "soft_bounce": 0
+      },
+      "duration_in_days": 16,
+      "actions_count": 10,
+      "status": "published",
+      "user": {
+        "id": 6830,
+        "name": "User Two",
+        "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/006/830/thumb/Foto_de_perfil.jpeg?1603138363",
+        "role": "manager"
+      },
+      "recipients_statistics": {
+        "total": {
+          "count": 33,
+          "label": "total",
+          "human_label": "Total"
+        },
+        "by_stage": {
+          "mql": {
+            "count": 0,
+            "label": "mql",
+            "human_label": "MQL"
+          },
+          "sql": {
+            "count": 0,
+            "label": "sql",
+            "human_label": "SQL"
+          },
+          "lead": {
+            "count": 0,
+            "label": "lead",
+            "human_label": "Lead"
+          },
+          "lost": {
+            "count": 8,
+            "label": "lost",
+            "human_label": "Perdido"
+          },
+          "client": {
+            "count": 0,
+            "label": "client",
+            "human_label": "Cliente"
+          },
+          "prospect": {
+            "count": 1,
+            "label": "prospect",
+            "human_label": "Prospect"
+          },
+          "conversion": {
+            "value": 0.11
+          },
+          "smart_lead": {
+            "count": 0,
+            "label": "smart_lead",
+            "human_label": "Smart Lead"
+          },
+          "opportunity": {
+            "count": 0,
+            "label": "opportunity",
+            "human_label": "Oportunidade"
+          }
+        },
+        "by_status": {
+          "active": {
+            "count": 22,
+            "label": "active",
+            "human_label": "Ativos"
+          },
+          "paused": {
+            "count": 2,
+            "label": "paused",
+            "human_label": "Pausados"
+          },
+          "bounced": {
+            "count": 0,
+            "label": "bounced",
+            "human_label": "Bounces"
+          },
+          "finished": {
+            "count": 0,
+            "label": "finished",
+            "human_label": "Finalizados"
+          },
+          "connected": {
+            "count": 1,
+            "label": "connected",
+            "human_label": "Conectados"
+          },
+          "converting": {
+            "count": 0,
+            "label": "converting",
+            "human_label": "Pendentes"
+          },
+          "blocklisted": {
+            "count": 0,
+            "label": "blocklisted",
+            "human_label": "Blocklist"
+          },
+          "interrupted": {
+            "count": 0,
+            "label": "interrupted",
+            "human_label": "Interrompidos"
+          },
+          "disqualified": {
+            "count": 8,
+            "label": "disqualified",
+            "human_label": "Desqualificados"
+          },
+          "not_connected": {
+            "count": 0,
+            "label": "not_connected",
+            "human_label": "Sem Conex\u00e3o"
+          },
+          "uninitialized": {
+            "count": 0,
+            "label": "uninitialized",
+            "human_label": "N\u00e3o iniciados"
+          }
+        }
+      },
+      "semi_automatic": true
+    },
+    {
+      "id": 49319,
+      "name": "[Outbound] TESTE",
+      "email_statistic": {
+        "sent": 27,
+        "accepted": 26,
+        "rejected": 1,
+        "delivery": 26,
+        "bounce": 1,
+        "open": 7,
+        "reply": 1,
+        "soft_bounce": 2
+      },
+      "duration_in_days": 16,
+      "actions_count": 10,
+      "status": "published",
+      "user": {
+        "id": 1641,
+        "name": "User One",
+        "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/001/641/thumb/WhatsApp_Image_2020-10-19_at_16.54.07.jpeg?1603137418",
+        "role": "manager"
+      },
+      "recipients_statistics": {
+        "total": {
+          "count": 9,
+          "label": "total",
+          "human_label": "Total"
+        },
+        "by_stage": {
+          "mql": {
+            "count": 0,
+            "label": "mql",
+            "human_label": "MQL"
+          },
+          "sql": {
+            "count": 0,
+            "label": "sql",
+            "human_label": "SQL"
+          },
+          "lead": {
+            "count": 0,
+            "label": "lead",
+            "human_label": "Lead"
+          },
+          "lost": {
+            "count": 1,
+            "label": "lost",
+            "human_label": "Perdido"
+          },
+          "client": {
+            "count": 0,
+            "label": "client",
+            "human_label": "Cliente"
+          },
+          "prospect": {
+            "count": 0,
+            "label": "prospect",
+            "human_label": "Prospect"
+          },
+          "conversion": {
+            "value": 0.0
+          },
+          "smart_lead": {
+            "count": 0,
+            "label": "smart_lead",
+            "human_label": "Smart Lead"
+          },
+          "opportunity": {
+            "count": 0,
+            "label": "opportunity",
+            "human_label": "Oportunidade"
+          }
+        },
+        "by_status": {
+          "active": {
+            "count": 6,
+            "label": "active",
+            "human_label": "Ativos"
+          },
+          "paused": {
+            "count": 0,
+            "label": "paused",
+            "human_label": "Pausados"
+          },
+          "bounced": {
+            "count": 1,
+            "label": "bounced",
+            "human_label": "Bounces"
+          },
+          "finished": {
+            "count": 0,
+            "label": "finished",
+            "human_label": "Finalizados"
+          },
+          "connected": {
+            "count": 0,
+            "label": "connected",
+            "human_label": "Conectados"
+          },
+          "converting": {
+            "count": 1,
+            "label": "converting",
+            "human_label": "Pendentes"
+          },
+          "blocklisted": {
+            "count": 0,
+            "label": "blocklisted",
+            "human_label": "Blocklist"
+          },
+          "interrupted": {
+            "count": 0,
+            "label": "interrupted",
+            "human_label": "Interrompidos"
+          },
+          "disqualified": {
+            "count": 1,
+            "label": "disqualified",
+            "human_label": "Desqualificados"
+          },
+          "not_connected": {
+            "count": 0,
+            "label": "not_connected",
+            "human_label": "Sem Conex\u00e3o"
+          },
+          "uninitialized": {
+            "count": 0,
+            "label": "uninitialized",
+            "human_label": "N\u00e3o iniciados"
+          }
+        }
+      },
+      "semi_automatic": true
+    },
+    {
+      "id": 47790,
+      "name": "[Outbound] TESTE",
+      "email_statistic": {
+        "sent": 67,
+        "accepted": 66,
+        "rejected": 1,
+        "delivery": 66,
+        "bounce": 1,
+        "open": 23,
+        "reply": 1,
+        "soft_bounce": 2
+      },
+      "duration_in_days": 17,
+      "actions_count": 11,
+      "status": "published",
+      "user": {
+        "id": 6830,
+        "name": "User Two",
+        "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/006/830/thumb/Foto_de_perfil.jpeg?1603138363",
+        "role": "manager"
+      },
+      "recipients_statistics": {
+        "total": {
+          "count": 30,
+          "label": "total",
+          "human_label": "Total"
+        },
+        "by_stage": {
+          "mql": {
+            "count": 0,
+            "label": "mql",
+            "human_label": "MQL"
+          },
+          "sql": {
+            "count": 0,
+            "label": "sql",
+            "human_label": "SQL"
+          },
+          "lead": {
+            "count": 0,
+            "label": "lead",
+            "human_label": "Lead"
+          },
+          "lost": {
+            "count": 5,
+            "label": "lost",
+            "human_label": "Perdido"
+          },
+          "client": {
+            "count": 0,
+            "label": "client",
+            "human_label": "Cliente"
+          },
+          "prospect": {
+            "count": 4,
+            "label": "prospect",
+            "human_label": "Prospect"
+          },
+          "conversion": {
+            "value": 0.05
+          },
+          "smart_lead": {
+            "count": 8,
+            "label": "smart_lead",
+            "human_label": "Smart Lead"
+          },
+          "opportunity": {
+            "count": 0,
+            "label": "opportunity",
+            "human_label": "Oportunidade"
+          }
+        },
+        "by_status": {
+          "active": {
+            "count": 11,
+            "label": "active",
+            "human_label": "Ativos"
+          },
+          "paused": {
+            "count": 2,
+            "label": "paused",
+            "human_label": "Pausados"
+          },
+          "bounced": {
+            "count": 0,
+            "label": "bounced",
+            "human_label": "Bounces"
+          },
+          "finished": {
+            "count": 0,
+            "label": "finished",
+            "human_label": "Finalizados"
+          },
+          "connected": {
+            "count": 1,
+            "label": "connected",
+            "human_label": "Conectados"
+          },
+          "converting": {
+            "count": 0,
+            "label": "converting",
+            "human_label": "Pendentes"
+          },
+          "blocklisted": {
+            "count": 0,
+            "label": "blocklisted",
+            "human_label": "Blocklist"
+          },
+          "interrupted": {
+            "count": 0,
+            "label": "interrupted",
+            "human_label": "Interrompidos"
+          },
+          "disqualified": {
+            "count": 5,
+            "label": "disqualified",
+            "human_label": "Desqualificados"
+          },
+          "not_connected": {
+            "count": 11,
+            "label": "not_connected",
+            "human_label": "Sem Conex\u00e3o"
+          },
+          "uninitialized": {
+            "count": 0,
+            "label": "uninitialized",
+            "human_label": "N\u00e3o iniciados"
+          }
+        }
+      },
+      "semi_automatic": true
+    },
+    {
+      "id": 47787,
+      "name": "[Outbound] TESTE",
+      "email_statistic": {
+        "sent": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "delivery": 0,
+        "bounce": 0,
+        "open": 0,
+        "reply": 0,
+        "soft_bounce": 0
+      },
+      "duration_in_days": 13,
+      "actions_count": 8,
+      "status": "published",
+      "user": {
+        "id": 6830,
+        "name": "User Two",
+        "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/006/830/thumb/Foto_de_perfil.jpeg?1603138363",
+        "role": "manager"
+      },
+      "recipients_statistics": {
+        "total": {
+          "count": 0,
+          "label": "total",
+          "human_label": "Total"
+        },
+        "by_stage": {
+          "mql": {
+            "count": 0,
+            "label": "mql",
+            "human_label": "MQL"
+          },
+          "sql": {
+            "count": 0,
+            "label": "sql",
+            "human_label": "SQL"
+          },
+          "lead": {
+            "count": 0,
+            "label": "lead",
+            "human_label": "Lead"
+          },
+          "lost": {
+            "count": 0,
+            "label": "lost",
+            "human_label": "Perdido"
+          },
+          "client": {
+            "count": 0,
+            "label": "client",
+            "human_label": "Cliente"
+          },
+          "prospect": {
+            "count": 0,
+            "label": "prospect",
+            "human_label": "Prospect"
+          },
+          "conversion": {
+            "value": 0.0
+          },
+          "smart_lead": {
+            "count": 0,
+            "label": "smart_lead",
+            "human_label": "Smart Lead"
+          },
+          "opportunity": {
+            "count": 0,
+            "label": "opportunity",
+            "human_label": "Oportunidade"
+          }
+        },
+        "by_status": {
+          "active": {
+            "count": 0,
+            "label": "active",
+            "human_label": "Ativos"
+          },
+          "paused": {
+            "count": 0,
+            "label": "paused",
+            "human_label": "Pausados"
+          },
+          "bounced": {
+            "count": 0,
+            "label": "bounced",
+            "human_label": "Bounces"
+          },
+          "finished": {
+            "count": 0,
+            "label": "finished",
+            "human_label": "Finalizados"
+          },
+          "connected": {
+            "count": 0,
+            "label": "connected",
+            "human_label": "Conectados"
+          },
+          "converting": {
+            "count": 0,
+            "label": "converting",
+            "human_label": "Pendentes"
+          },
+          "blocklisted": {
+            "count": 0,
+            "label": "blocklisted",
+            "human_label": "Blocklist"
+          },
+          "interrupted": {
+            "count": 0,
+            "label": "interrupted",
+            "human_label": "Interrompidos"
+          },
+          "disqualified": {
+            "count": 0,
+            "label": "disqualified",
+            "human_label": "Desqualificados"
+          },
+          "not_connected": {
+            "count": 0,
+            "label": "not_connected",
+            "human_label": "Sem Conex\u00e3o"
+          },
+          "uninitialized": {
+            "count": 0,
+            "label": "uninitialized",
+            "human_label": "N\u00e3o iniciados"
+          }
+        }
+      },
+      "semi_automatic": true
+    },
+    {
+      "id": 47786,
+      "name": "[Outbound] TESTE",
+      "email_statistic": {
+        "sent": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "delivery": 0,
+        "bounce": 0,
+        "open": 0,
+        "reply": 0,
+        "soft_bounce": 0
+      },
+      "duration_in_days": 15,
+      "actions_count": 9,
+      "status": "published",
+      "user": {
+        "id": 6830,
+        "name": "User Two",
+        "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/006/830/thumb/Foto_de_perfil.jpeg?1603138363",
+        "role": "manager"
+      },
+      "recipients_statistics": {
+        "total": {
+          "count": 0,
+          "label": "total",
+          "human_label": "Total"
+        },
+        "by_stage": {
+          "mql": {
+            "count": 0,
+            "label": "mql",
+            "human_label": "MQL"
+          },
+          "sql": {
+            "count": 0,
+            "label": "sql",
+            "human_label": "SQL"
+          },
+          "lead": {
+            "count": 0,
+            "label": "lead",
+            "human_label": "Lead"
+          },
+          "lost": {
+            "count": 0,
+            "label": "lost",
+            "human_label": "Perdido"
+          },
+          "client": {
+            "count": 0,
+            "label": "client",
+            "human_label": "Cliente"
+          },
+          "prospect": {
+            "count": 0,
+            "label": "prospect",
+            "human_label": "Prospect"
+          },
+          "conversion": {
+            "value": 0.0
+          },
+          "smart_lead": {
+            "count": 0,
+            "label": "smart_lead",
+            "human_label": "Smart Lead"
+          },
+          "opportunity": {
+            "count": 0,
+            "label": "opportunity",
+            "human_label": "Oportunidade"
+          }
+        },
+        "by_status": {
+          "active": {
+            "count": 0,
+            "label": "active",
+            "human_label": "Ativos"
+          },
+          "paused": {
+            "count": 0,
+            "label": "paused",
+            "human_label": "Pausados"
+          },
+          "bounced": {
+            "count": 0,
+            "label": "bounced",
+            "human_label": "Bounces"
+          },
+          "finished": {
+            "count": 0,
+            "label": "finished",
+            "human_label": "Finalizados"
+          },
+          "connected": {
+            "count": 0,
+            "label": "connected",
+            "human_label": "Conectados"
+          },
+          "converting": {
+            "count": 0,
+            "label": "converting",
+            "human_label": "Pendentes"
+          },
+          "blocklisted": {
+            "count": 0,
+            "label": "blocklisted",
+            "human_label": "Blocklist"
+          },
+          "interrupted": {
+            "count": 0,
+            "label": "interrupted",
+            "human_label": "Interrompidos"
+          },
+          "disqualified": {
+            "count": 0,
+            "label": "disqualified",
+            "human_label": "Desqualificados"
+          },
+          "not_connected": {
+            "count": 0,
+            "label": "not_connected",
+            "human_label": "Sem Conex\u00e3o"
+          },
+          "uninitialized": {
+            "count": 0,
+            "label": "uninitialized",
+            "human_label": "N\u00e3o iniciados"
+          }
+        }
+      },
+      "semi_automatic": true
+    },
+    {
+      "id": 47780,
+      "name": "[Inbound] Qualifica\u00e7\u00e3o de oportunidade (antigo)",
+      "email_statistic": {
+        "sent": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "delivery": 0,
+        "bounce": 0,
+        "open": 0,
+        "reply": 0,
+        "soft_bounce": 0
+      },
+      "duration_in_days": 4,
+      "actions_count": 5,
+      "status": "published",
+      "user": {
+        "id": 6830,
+        "name": "User Two",
+        "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/006/830/thumb/Foto_de_perfil.jpeg?1603138363",
+        "role": "manager"
+      },
+      "recipients_statistics": {
+        "total": {
+          "count": 0,
+          "label": "total",
+          "human_label": "Total"
+        },
+        "by_stage": {
+          "mql": {
+            "count": 0,
+            "label": "mql",
+            "human_label": "MQL"
+          },
+          "sql": {
+            "count": 0,
+            "label": "sql",
+            "human_label": "SQL"
+          },
+          "lead": {
+            "count": 0,
+            "label": "lead",
+            "human_label": "Lead"
+          },
+          "lost": {
+            "count": 0,
+            "label": "lost",
+            "human_label": "Perdido"
+          },
+          "client": {
+            "count": 0,
+            "label": "client",
+            "human_label": "Cliente"
+          },
+          "prospect": {
+            "count": 0,
+            "label": "prospect",
+            "human_label": "Prospect"
+          },
+          "conversion": {
+            "value": 0.0
+          },
+          "smart_lead": {
+            "count": 0,
+            "label": "smart_lead",
+            "human_label": "Smart Lead"
+          },
+          "opportunity": {
+            "count": 0,
+            "label": "opportunity",
+            "human_label": "Oportunidade"
+          }
+        },
+        "by_status": {
+          "active": {
+            "count": 0,
+            "label": "active",
+            "human_label": "Ativos"
+          },
+          "paused": {
+            "count": 0,
+            "label": "paused",
+            "human_label": "Pausados"
+          },
+          "bounced": {
+            "count": 0,
+            "label": "bounced",
+            "human_label": "Bounces"
+          },
+          "finished": {
+            "count": 0,
+            "label": "finished",
+            "human_label": "Finalizados"
+          },
+          "connected": {
+            "count": 0,
+            "label": "connected",
+            "human_label": "Conectados"
+          },
+          "converting": {
+            "count": 0,
+            "label": "converting",
+            "human_label": "Pendentes"
+          },
+          "blocklisted": {
+            "count": 0,
+            "label": "blocklisted",
+            "human_label": "Blocklist"
+          },
+          "interrupted": {
+            "count": 0,
+            "label": "interrupted",
+            "human_label": "Interrompidos"
+          },
+          "disqualified": {
+            "count": 0,
+            "label": "disqualified",
+            "human_label": "Desqualificados"
+          },
+          "not_connected": {
+            "count": 0,
+            "label": "not_connected",
+            "human_label": "Sem Conex\u00e3o"
+          },
+          "uninitialized": {
+            "count": 0,
+            "label": "uninitialized",
+            "human_label": "N\u00e3o iniciados"
+          }
+        }
+      },
+      "semi_automatic": true
+    },
+    {
+      "id": 47779,
+      "name": "[Inbound] Qualifica\u00e7\u00e3o de MQL ",
+      "email_statistic": {
+        "sent": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "delivery": 0,
+        "bounce": 0,
+        "open": 0,
+        "reply": 0,
+        "soft_bounce": 0
+      },
+      "duration_in_days": 7,
+      "actions_count": 4,
+      "status": "published",
+      "user": {
+        "id": 6830,
+        "name": "User Two",
+        "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/006/830/thumb/Foto_de_perfil.jpeg?1603138363",
+        "role": "manager"
+      },
+      "recipients_statistics": {
+        "total": {
+          "count": 0,
+          "label": "total",
+          "human_label": "Total"
+        },
+        "by_stage": {
+          "mql": {
+            "count": 0,
+            "label": "mql",
+            "human_label": "MQL"
+          },
+          "sql": {
+            "count": 0,
+            "label": "sql",
+            "human_label": "SQL"
+          },
+          "lead": {
+            "count": 0,
+            "label": "lead",
+            "human_label": "Lead"
+          },
+          "lost": {
+            "count": 0,
+            "label": "lost",
+            "human_label": "Perdido"
+          },
+          "client": {
+            "count": 0,
+            "label": "client",
+            "human_label": "Cliente"
+          },
+          "prospect": {
+            "count": 0,
+            "label": "prospect",
+            "human_label": "Prospect"
+          },
+          "conversion": {
+            "value": 0.0
+          },
+          "smart_lead": {
+            "count": 0,
+            "label": "smart_lead",
+            "human_label": "Smart Lead"
+          },
+          "opportunity": {
+            "count": 0,
+            "label": "opportunity",
+            "human_label": "Oportunidade"
+          }
+        },
+        "by_status": {
+          "active": {
+            "count": 0,
+            "label": "active",
+            "human_label": "Ativos"
+          },
+          "paused": {
+            "count": 0,
+            "label": "paused",
+            "human_label": "Pausados"
+          },
+          "bounced": {
+            "count": 0,
+            "label": "bounced",
+            "human_label": "Bounces"
+          },
+          "finished": {
+            "count": 0,
+            "label": "finished",
+            "human_label": "Finalizados"
+          },
+          "connected": {
+            "count": 0,
+            "label": "connected",
+            "human_label": "Conectados"
+          },
+          "converting": {
+            "count": 0,
+            "label": "converting",
+            "human_label": "Pendentes"
+          },
+          "blocklisted": {
+            "count": 0,
+            "label": "blocklisted",
+            "human_label": "Blocklist"
+          },
+          "interrupted": {
+            "count": 0,
+            "label": "interrupted",
+            "human_label": "Interrompidos"
+          },
+          "disqualified": {
+            "count": 0,
+            "label": "disqualified",
+            "human_label": "Desqualificados"
+          },
+          "not_connected": {
+            "count": 0,
+            "label": "not_connected",
+            "human_label": "Sem Conex\u00e3o"
+          },
+          "uninitialized": {
+            "count": 0,
+            "label": "uninitialized",
+            "human_label": "N\u00e3o iniciados"
+          }
+        }
+      },
+      "semi_automatic": true
+    },
+    {
+      "id": 47661,
+      "name": "[Inbound] Qualifica\u00e7\u00e3o de levantadas",
+      "email_statistic": {
+        "sent": 5,
+        "accepted": 5,
+        "rejected": 0,
+        "delivery": 5,
+        "bounce": 0,
+        "open": 5,
+        "reply": 2,
+        "soft_bounce": 0
+      },
+      "duration_in_days": 4,
+      "actions_count": 6,
+      "status": "published",
+      "user": {
+        "id": 6830,
+        "name": "User Two",
+        "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/006/830/thumb/Foto_de_perfil.jpeg?1603138363",
+        "role": "manager"
+      },
+      "recipients_statistics": {
+        "total": {
+          "count": 19,
+          "label": "total",
+          "human_label": "Total"
+        },
+        "by_stage": {
+          "mql": {
+            "count": 0,
+            "label": "mql",
+            "human_label": "MQL"
+          },
+          "sql": {
+            "count": 0,
+            "label": "sql",
+            "human_label": "SQL"
+          },
+          "lead": {
+            "count": 0,
+            "label": "lead",
+            "human_label": "Lead"
+          },
+          "lost": {
+            "count": 7,
+            "label": "lost",
+            "human_label": "Perdido"
+          },
+          "client": {
+            "count": 0,
+            "label": "client",
+            "human_label": "Cliente"
+          },
+          "prospect": {
+            "count": 9,
+            "label": "prospect",
+            "human_label": "Prospect"
+          },
+          "conversion": {
+            "value": 0.5
+          },
+          "smart_lead": {
+            "count": 2,
+            "label": "smart_lead",
+            "human_label": "Smart Lead"
+          },
+          "opportunity": {
+            "count": 0,
+            "label": "opportunity",
+            "human_label": "Oportunidade"
+          }
+        },
+        "by_status": {
+          "active": {
+            "count": 1,
+            "label": "active",
+            "human_label": "Ativos"
+          },
+          "paused": {
+            "count": 0,
+            "label": "paused",
+            "human_label": "Pausados"
+          },
+          "bounced": {
+            "count": 0,
+            "label": "bounced",
+            "human_label": "Bounces"
+          },
+          "finished": {
+            "count": 0,
+            "label": "finished",
+            "human_label": "Finalizados"
+          },
+          "connected": {
+            "count": 9,
+            "label": "connected",
+            "human_label": "Conectados"
+          },
+          "converting": {
+            "count": 0,
+            "label": "converting",
+            "human_label": "Pendentes"
+          },
+          "blocklisted": {
+            "count": 0,
+            "label": "blocklisted",
+            "human_label": "Blocklist"
+          },
+          "interrupted": {
+            "count": 0,
+            "label": "interrupted",
+            "human_label": "Interrompidos"
+          },
+          "disqualified": {
+            "count": 6,
+            "label": "disqualified",
+            "human_label": "Desqualificados"
+          },
+          "not_connected": {
+            "count": 3,
+            "label": "not_connected",
+            "human_label": "Sem Conex\u00e3o"
+          },
+          "uninitialized": {
+            "count": 0,
+            "label": "uninitialized",
+            "human_label": "N\u00e3o iniciados"
+          }
+        }
+      },
+      "semi_automatic": true
+    },
+    {
+      "id": 45392,
+      "name": "[Inbound] Qualifica\u00e7\u00e3o de MQL ",
+      "email_statistic": {
+        "sent": 3,
+        "accepted": 3,
+        "rejected": 0,
+        "delivery": 3,
+        "bounce": 0,
+        "open": 3,
+        "reply": 0,
+        "soft_bounce": 0
+      },
+      "duration_in_days": 7,
+      "actions_count": 4,
+      "status": "published",
+      "user": {
+        "id": 1641,
+        "name": "User One",
+        "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/001/641/thumb/WhatsApp_Image_2020-10-19_at_16.54.07.jpeg?1603137418",
+        "role": "manager"
+      },
+      "recipients_statistics": {
+        "total": {
+          "count": 5,
+          "label": "total",
+          "human_label": "Total"
+        },
+        "by_stage": {
+          "mql": {
+            "count": 0,
+            "label": "mql",
+            "human_label": "MQL"
+          },
+          "sql": {
+            "count": 0,
+            "label": "sql",
+            "human_label": "SQL"
+          },
+          "lead": {
+            "count": 0,
+            "label": "lead",
+            "human_label": "Lead"
+          },
+          "lost": {
+            "count": 3,
+            "label": "lost",
+            "human_label": "Perdido"
+          },
+          "client": {
+            "count": 0,
+            "label": "client",
+            "human_label": "Cliente"
+          },
+          "prospect": {
+            "count": 1,
+            "label": "prospect",
+            "human_label": "Prospect"
+          },
+          "conversion": {
+            "value": 0.2
+          },
+          "smart_lead": {
+            "count": 1,
+            "label": "smart_lead",
+            "human_label": "Smart Lead"
+          },
+          "opportunity": {
+            "count": 0,
+            "label": "opportunity",
+            "human_label": "Oportunidade"
+          }
+        },
+        "by_status": {
+          "active": {
+            "count": 0,
+            "label": "active",
+            "human_label": "Ativos"
+          },
+          "paused": {
+            "count": 0,
+            "label": "paused",
+            "human_label": "Pausados"
+          },
+          "bounced": {
+            "count": 0,
+            "label": "bounced",
+            "human_label": "Bounces"
+          },
+          "finished": {
+            "count": 0,
+            "label": "finished",
+            "human_label": "Finalizados"
+          },
+          "connected": {
+            "count": 1,
+            "label": "connected",
+            "human_label": "Conectados"
+          },
+          "converting": {
+            "count": 0,
+            "label": "converting",
+            "human_label": "Pendentes"
+          },
+          "blocklisted": {
+            "count": 0,
+            "label": "blocklisted",
+            "human_label": "Blocklist"
+          },
+          "interrupted": {
+            "count": 0,
+            "label": "interrupted",
+            "human_label": "Interrompidos"
+          },
+          "disqualified": {
+            "count": 3,
+            "label": "disqualified",
+            "human_label": "Desqualificados"
+          },
+          "not_connected": {
+            "count": 1,
+            "label": "not_connected",
+            "human_label": "Sem Conex\u00e3o"
+          },
+          "uninitialized": {
+            "count": 0,
+            "label": "uninitialized",
+            "human_label": "N\u00e3o iniciados"
+          }
+        }
+      },
+      "semi_automatic": true
+    }
+  ],
+  "meta": {
+    "current_page": 1,
+    "next_page": 2,
+    "prev_page": null
+  }
+}

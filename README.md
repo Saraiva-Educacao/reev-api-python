@@ -37,3 +37,11 @@ export REEV_TOKEN="YOUR TOKEN"
 ```
 python main.py
 ```
+
+### Testing
+To test all functions, first install test requirements and then run pytest.
+
+```
+pip install -r tests/tests_requirements.txt
+pytest --doctest-modules
+```
