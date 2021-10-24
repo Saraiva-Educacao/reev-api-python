@@ -92,5 +92,22 @@ class Reev:
             ]
             return flows_schema
 
+        elif table == 'users':
+            users_schema = [
+                {"column_name": "id", "column_type": "INTEGER"},
+                {"column_name": "email", "column_type": "STRING"},
+                {"column_name": "name", "column_type": "STRING"},
+                {"column_name": "picture_url", "column_type": "STRING"},
+                {"column_name": "role", "column_type": "STRING"},
+            ]
+            return users_schema
+
+        elif table == 'contact_tags':
+            contact_tags_schema = [
+                {"column_name": "contact_id", "column_type": "INTEGER"},
+                {"column_name": "tag_name", "column_type": "STRING"},
+            ]
+            return contact_tags_schema
+
         else:
             raise KeyError(f"Table {table} not available.")
