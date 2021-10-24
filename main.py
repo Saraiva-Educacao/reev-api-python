@@ -8,6 +8,7 @@ def main(tables=None):
     if not tables:
         tables = [
             'contacts',
+            'flows',
         ]
 
     reev = Reev()
