@@ -6,7 +6,7 @@ from src.tools.functions import format_string
 
 
 class ReevAPI:
-    def __init__(self, test=False):
+    def __init__(self, test=True):
         self.token = env.get('REEV_TOKEN')
         self._raw_contacts = []
         self.test = test
@@ -92,3 +92,71 @@ class ReevAPI:
                 contact[new_key] = contact.pop(key)
 
         return all_contacts
+
+    def _get_raw_flows(self):
+        """Get all flows.
+
+        Get all flows information raw data, to be processed in the get_flows function.
+
+        Returns:
+            list[dict]: Raw, unprocessed flows data.
+        """
+        flows_url = 'http://api.reev.co/v1/flows?page={}'
+        page = 1
+        next_page = 2
+        all_flows = []
+
+        while next_page is not None:
+            response = requests.get(flows_url.format(page), params={'api_token': self.token})
+            if response.status_code == 200:
+                response = response.json()
+                flows = response['flows']
+                all_flows += flows
+
+                next_page = response['meta']['next_page']
+                page += 1
+            else:
+                raise HTTPError(f"The request returned the {response.status_code} error code")
+
+        return all_flows
+
+    def get_flows(self):
+        """Transforms raw flows data.
+
+        Basically, this function does two kinds of transformations:
+            - Unnest email data (sent, open and reply)
+            - Get flow count (total, by status and by stage)
+
+        Returns:
+            list[dict]: Processed flows data, ready to insert in BQ.
+        """
+        all_flows = self._get_raw_flows()
+
+        for flow in all_flows:
+            # Unnesting every element in the "email_statistic" section
+            email_statistic = flow.pop('email_statistic')
+            for key, value in email_statistic.items():
+                flow[f'email_{key}'] = email_statistic[key]
+
+            # Creator user_id
+            flow['creator_id'] = flow.pop('user')['id']
+
+            # Total number of contacts in the flow
+            recipients_statistics = flow.pop('recipients_statistics')
+            flow['total_contacts'] = recipients_statistics['total']['count']
+
+            # Unnesting every element in the "by_stage" section
+            for key, value in recipients_statistics['by_stage'].items():
+                if key != 'conversion':
+                    flow['stage_{}'.format(key)] = value['count']
+                else:
+                    flow[key] = value['value']
+
+            # Unnesting every element in the "by_status" section
+            for key, value in recipients_statistics['by_status'].items():
+                flow['status_{}'.format(key)] = value['count']
+                # Assure no column is named with "status_blacklisted"
+                if key == 'blacklisted':
+                    flow['status_blocklisted'] = flow.pop('status_blacklisted')
+
+        return all_flows
