@@ -6,7 +6,7 @@ from src.tools.functions import format_string
 
 
 class ReevAPI:
-    def __init__(self, test=True):
+    def __init__(self, test=False):
         self.token = env.get('REEV_TOKEN')
         self._raw_contacts = []
         self.test = test
