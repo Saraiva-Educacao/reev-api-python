@@ -1,0 +1,66 @@
+{
+   "contacts":[
+      {
+         "id":4153756,
+         "first_name":"Nome",
+         "last_name":"Pinheiro",
+         "email":"nome@teste.edu.br",
+         "business":"FUNDA\u00c7\u00c3O UNIVERSIDADE",
+         "position":"Coordenador de Administra\u00e7\u00e3o",
+         "telephone":"87 2101-6853",
+         "cellphone":null,
+         "address":"x",
+         "url":"https://portais.teste.edu.br",
+         "linkedin":"x",
+         "stage":"prospect",
+         "custom_fields":[
+
+         ],
+         "tags":[
+            {
+               "id":11839,
+               "name":"Outbound",
+               "color":"2D7DAA",
+               "taggable_tag_id":2060291
+            },
+            {
+               "id":13927,
+               "name":"Coordenadores",
+               "color":"F68F16",
+               "taggable_tag_id":2060290
+            },
+            {
+               "id":5835,
+               "name":"BDS",
+               "color":"5A0C91",
+               "taggable_tag_id":2060289
+            }
+         ],
+         "user":{
+            "id":1641,
+            "name":"User One",
+            "picture_url":"https://reev.s3.amazonaws.com/users/pictures/000/001/641/thumb/WhatsApp_Image_2020-10-19_at_16.54.07.jpeg?16037418",
+            "role":"manager"
+         },
+         "flow":{
+            "id":37982,
+            "name":"[Outbound] TESTE",
+            "semi_automatic":true
+         },
+         "contact_group":null,
+         "recipient_status":"connected",
+         "lost_reason_title":null,
+         "created_at":"2021-02-08T17:17:55.404Z",
+         "updated_at":"2021-02-08T18:12:19.330Z",
+         "variable1":"Biblioteca Digital",
+         "variable2":"variable2",
+         "variable3":null
+      }
+   ],
+   "meta":{
+      "current_page":2,
+      "next_page":null,
+      "prev_page":1,
+      "total_count":3589
+   }
+}

@@ -1,0 +1,86 @@
+{
+   "custom_fields":[
+      {
+         "id":1981,
+         "field":"Tags RD ",
+         "kind":"textarea",
+         "options":[
+
+         ],
+         "order":"None"
+      },
+      {
+         "id":2430,
+         "field":"Razões de Perda ",
+         "kind":"dropdown",
+         "options":[
+            {
+               "name":"BDS",
+               "order":0
+            },
+            {
+               "name":"Estudante",
+               "order":1
+            },
+            {
+               "name":"Ensino Básico",
+               "order":2
+            },
+            {
+               "name":"Acesso gratuito",
+               "order":3
+            },
+            {
+               "name":"Escritórios",
+               "order":4
+            }
+         ],
+         "order":"None"
+      },
+      {
+         "id":2440,
+         "field":"Tipo de escritório",
+         "kind":"dropdown",
+         "options":[
+            {
+               "name":"Diversos",
+               "order":0
+            },
+            {
+               "name":"Cível",
+               "order":1
+            },
+            {
+               "name":"Criminal",
+               "order":2
+            },
+            {
+               "name":"Tributário",
+               "order":3
+            },
+            {
+               "name":"Empresarial",
+               "order":4
+            },
+            {
+               "name":"Trabalhista",
+               "order":5
+            },
+            {
+               "name":"Previdenciário",
+               "order":6
+            }
+         ],
+         "order":"None"
+      },
+      {
+         "id":3250,
+         "field":"Segmento ",
+         "kind":"input",
+         "options":[
+
+         ],
+         "order":"None"
+      }
+   ]
+}

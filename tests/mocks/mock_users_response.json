@@ -1,0 +1,25 @@
+{
+    "users": [
+        {
+            "id": 4009,
+            "email": "nome@mail.com.br",
+            "name": "First Last",
+            "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/004/009/thumb/Capturar.PNG?1603460494",
+            "role": "manager"
+        },
+        {
+            "id": 6830,
+            "email": "nome.sobrenome@edu.com.br",
+            "name": "Nome Sobrenome",
+            "picture_url": "https://reev.s3.amazonaws.com/users/pictures/000/006/830/thumb/490dc0fc-057c-4171-967b-c43ff65a7249.jpg?1618510137",
+            "role": "manager"
+        },
+        {
+            "id": 7988,
+            "email": "tais.teste@edu.com.br",
+            "name": "Ta\u00eds Teste",
+            "picture_url": "https://api.reev.co/images/thumb/default_user_picture.jpg",
+            "role": "sdr"
+        }
+    ]
+}
